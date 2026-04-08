@@ -5,6 +5,7 @@ from app.config import EXPORTS_DIR, TEMPLATE_ORDER
 from app.models.content import ExportResult, MarketplaceExport, MasterCopyInput
 from app.models.product import ProductInput
 from app.services.ai_service import AIContentService
+from app.services.asset_brief_service import generate_asset_briefs_from_structured_copy, render_simple_image
 from app.utils.file_helpers import ensure_dir
 from app.utils.slugify import slugify
 
@@ -60,8 +61,24 @@ class ExportService:
                     relative_path = output_path.relative_to(EXPORTS_DIR.parent)
                     preview_urls.append("/" + str(relative_path).replace("\\", "/"))
             else:
-                # Placeholder output references so UI can show what will be rendered later.
-                preview_urls = [f"placeholder:{template_name}" for template_name in TEMPLATE_ORDER]
+                # Render real PNG placeholders with Pillow using structured marketplace copy data.
+                module_briefs = generate_asset_briefs_from_structured_copy(content.model_dump())
+                brief_by_template = {
+                    "hero": module_briefs[0] if len(module_briefs) > 0 else {},
+                    "body_mapping": module_briefs[1] if len(module_briefs) > 1 else {},
+                    "problem_solution": module_briefs[2] if len(module_briefs) > 2 else {},
+                    "features": module_briefs[1] if len(module_briefs) > 1 else {},
+                    "compatibility": module_briefs[4] if len(module_briefs) > 4 else {},
+                }
+
+                for template_name in TEMPLATE_ORDER:
+                    output_path = market_dir / f"{template_name}.png"
+                    module = brief_by_template.get(template_name, {})
+                    render_simple_image(module, output_path)
+
+                    image_paths.append(str(output_path))
+                    relative_path = output_path.relative_to(EXPORTS_DIR.parent)
+                    preview_urls.append("/" + str(relative_path).replace("\\", "/"))
 
             copy_path = market_dir / "copy.json"
             copy_path.write_text(

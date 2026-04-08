@@ -1,75 +1,75 @@
 {
   "marketplace": "ES",
-  "hero_headline": "Electrodos TENS/EMS fiables para el alivio muscular diario",
-  "hero_subtext": "Pads de hidrogel premium diseñados para una entrega de pulso constante y un uso cómodo y amigable con la piel, ya sea en casa o en movimiento.",
+  "hero_headline": "Motron Care Electrodos TENS/EMS Pro - Electrodos cómodos para el día a día",
+  "hero_subtext": "Electrodos de hidrogel amigables con la piel para una estimulación uniforme en casa, en el estudio y en movimiento.",
   "benefit_blocks": [
     {
       "title": "Conductividad constante",
-      "text": "Asegura una distribución uniforme del pulso para una sesión de estimulación estable y efectiva."
+      "text": "Transmisión uniforme de impulsos para una aplicación estable."
     },
     {
-      "title": "Hidrogel amigable con la piel",
-      "text": "Material suave y cómodo diseñado para un uso repetido sin irritación."
+      "title": "Suaves sobre la piel",
+      "text": "Sensación agradable incluso con uso repetido."
     },
     {
-      "title": "Reutilizables y duraderos",
-      "text": "Gel de alta calidad con película protectora que ayuda a prolongar la vida útil del producto."
+      "title": "Sujeción fiable",
+      "text": "Ajuste seguro durante el descanso, el trabajo y el movimiento."
     },
     {
-      "title": "Aplicación flexible en el cuerpo",
-      "text": "Se adapta fácilmente a hombros, espalda, cuello y piernas para un soporte específico."
+      "title": "Aplicación flexible",
+      "text": "Adecuados para cuello, espalda, hombros y piernas."
     }
   ],
-  "problem_title": "La tensión y el cansancio muscular te ralentizan",
-  "problem_text": "Jornadas laborales largas, deportes y movimientos repetitivos pueden provocar molestias persistentes y movilidad reducida.",
-  "solution_title": "Estimulación específica para la recuperación diaria",
-  "solution_text": "Estos pads TENS/EMS entregan impulsos eléctricos controlados para apoyar la relajación, la recuperación y el confort diario.",
+  "problem_title": "Las tensiones musculares frenan el día a día",
+  "problem_text": "Estar sentado por mucho tiempo, cargas intensas y movimientos repetitivos suelen provocar sensaciones de tensión.",
+  "solution_title": "Impulsos dirigidos con un enfoque claro",
+  "solution_text": "Los electrodos transmiten impulsos TENS/EMS de manera uniforme y apoyan una rutina de recuperación planificada.",
   "compatibility_points": [
     "Dispositivos TENS con conector de 2 mm",
-    "Estimuladores EMS con conector de 2 mm",
-    "La mayoría de las unidades de electroterapia en casa",
+    "Dispositivos EMS con conector de 2 mm",
+    "Muchos sistemas de terapia en casa",
     "Dispositivos de rehabilitación portátiles"
   ],
   "use_case_points": [
-    "Recuperación muscular post-entrenamiento",
-    "Alivio de tensión en cuello y espalda",
-    "Soporte durante largas horas de trabajo en escritorio",
-    "Manejo del dolor mientras viajas"
+    "Recuperación después del entrenamiento",
+    "Apoyo para tensiones en cuello y espalda",
+    "Alivio tras largas horas sentado",
+    "Comodidad durante los viajes"
   ],
   "module_texts": {
-    "hero": "Diseñados para un rendimiento fiable y comodidad diaria.",
-    "body_mapping": "Cada beneficio apoya un caso de uso real.",
-    "problem_solution": "Desde la tensión diaria hasta la recuperación controlada.",
-    "features": "Materiales de alta calidad diseñados para facilitar su uso.",
-    "compatibility": "Compatibles con la mayoría de los dispositivos TENS/EMS que utilizan conectores de 2 mm."
+    "hero": "Calidad premium para una aplicación fiable en el día a día.",
+    "body_mapping": "Cada beneficio apoya un objetivo concreto de comodidad y movimiento.",
+    "problem_solution": "De la tensión a la recuperación estructurada en pocos pasos.",
+    "features": "Materiales duraderos, fácil manejo y ajuste limpio.",
+    "compatibility": "Compatible con muchos dispositivos comunes con conexión de 2 mm."
   },
   "export_text_by_template": {
     "hero": {
-      "headline": "Electrodos TENS/EMS fiables para el alivio muscular diario",
-      "subtext": "Pads de hidrogel premium diseñados para una entrega de pulso constante y un uso cómodo y amigable con la piel, ya sea en casa o en movimiento."
+      "headline": "Motron Care Electrodos TENS/EMS Pro - Electrodos cómodos para el día a día",
+      "subtext": "Electrodos de hidrogel amigables con la piel para una estimulación uniforme en casa, en el estudio y en movimiento."
     },
     "body_mapping": {
       "benefit_1_title": "Conductividad constante",
-      "benefit_1_text": "Asegura una distribución uniforme del pulso para una sesión de estimulación estable y efectiva.",
-      "benefit_2_title": "Hidrogel amigable con la piel",
-      "benefit_2_text": "Material suave y cómodo diseñado para un uso repetido sin irritación.",
-      "benefit_3_title": "Reutilizables y duraderos",
-      "benefit_3_text": "Gel de alta calidad con película protectora que ayuda a prolongar la vida útil del producto.",
-      "benefit_4_title": "Aplicación flexible en el cuerpo",
-      "benefit_4_text": "Se adapta fácilmente a hombros, espalda, cuello y piernas para un soporte específico."
+      "benefit_1_text": "Transmisión uniforme de impulsos para una aplicación estable.",
+      "benefit_2_title": "Suaves sobre la piel",
+      "benefit_2_text": "Sensación agradable incluso con uso repetido.",
+      "benefit_3_title": "Sujeción fiable",
+      "benefit_3_text": "Ajuste seguro durante el descanso, el trabajo y el movimiento.",
+      "benefit_4_title": "Aplicación flexible",
+      "benefit_4_text": "Adecuados para cuello, espalda, hombros y piernas."
     },
     "problem_solution": {
-      "problem_title": "La tensión y el cansancio muscular te ralentizan",
-      "problem_text": "Jornadas laborales largas, deportes y movimientos repetitivos pueden provocar molestias persistentes y movilidad reducida.",
-      "solution_title": "Estimulación específica para la recuperación diaria",
-      "solution_text": "Estos pads TENS/EMS entregan impulsos eléctricos controlados para apoyar la relajación, la recuperación y el confort diario."
+      "problem_title": "Las tensiones musculares frenan el día a día",
+      "problem_text": "Estar sentado por mucho tiempo, cargas intensas y movimientos repetitivos suelen provocar sensaciones de tensión.",
+      "solution_title": "Impulsos dirigidos con un enfoque claro",
+      "solution_text": "Los electrodos transmiten impulsos TENS/EMS de manera uniforme y apoyan una rutina de recuperación planificada."
     },
     "features": {
-      "feature_text": "Materiales de alta calidad diseñados para facilitar su uso."
+      "feature_text": "Materiales duraderos, fácil manejo y ajuste limpio."
     },
     "compatibility": {
-      "compatibility": "Dispositivos TENS con conector de 2 mm | Estimuladores EMS con conector de 2 mm | La mayoría de las unidades de electroterapia en casa | Dispositivos de rehabilitación portátiles",
-      "use_cases": "Recuperación muscular post-entrenamiento | Alivio de tensión en cuello y espalda | Soporte durante largas horas de trabajo en escritorio | Manejo del dolor mientras viajas"
+      "compatibility": "Dispositivos TENS con conector de 2 mm | Dispositivos EMS con conector de 2 mm | Muchos sistemas de terapia en casa | Dispositivos de rehabilitación portátiles",
+      "use_cases": "Recuperación después del entrenamiento | Apoyo para tensiones en cuello y espalda | Alivio tras largas horas sentado | Comodidad durante los viajes"
     }
   }
 }

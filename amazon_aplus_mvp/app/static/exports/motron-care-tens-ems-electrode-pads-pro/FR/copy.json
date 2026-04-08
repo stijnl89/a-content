@@ -1,75 +1,75 @@
 {
   "marketplace": "FR",
-  "hero_headline": "Électrodes TENS/EMS fiables pour un soulagement musculaire quotidien",
-  "hero_subtext": "Des pads en hydrogel de qualité supérieure conçus pour une diffusion constante des impulsions et un usage confortable et respectueux de la peau, à la maison ou en déplacement.",
+  "hero_headline": "Motron Care TENS/EMS Électrodes Pro - Des électrodes confortables pour un usage quotidien",
+  "hero_subtext": "Des électrodes en hydrogel respectueuses de la peau pour une stimulation homogène à domicile, en studio et en déplacement.",
   "benefit_blocks": [
     {
       "title": "Conductivité constante",
-      "text": "Assure une distribution uniforme des impulsions pour une séance de stimulation stable et efficace."
+      "text": "Transmission uniforme des impulsions pour une application stable."
     },
     {
-      "title": "Hydrogel respectueux de la peau",
-      "text": "Matériau doux et confortable conçu pour une utilisation répétée sans irritation."
+      "title": "Confort sur la peau",
+      "text": "Sensation douce même lors d'une utilisation répétée."
     },
     {
-      "title": "Réutilisables et durables",
-      "text": "Gel de haute qualité avec film protecteur pour prolonger la durée de vie du produit."
+      "title": "Maintien fiable",
+      "text": "Position sécurisée pendant le repos, le travail et le mouvement."
     },
     {
-      "title": "Application corporelle flexible",
-      "text": "S'adapte facilement aux épaules, au dos, au cou et aux jambes pour un soutien ciblé."
+      "title": "Application flexible",
+      "text": "Adapté pour le cou, le dos, les épaules et les jambes."
     }
   ],
-  "problem_title": "La tension musculaire et la fatigue vous ralentissent",
-  "problem_text": "Des journées de travail longues, le sport et les mouvements répétitifs peuvent entraîner un inconfort persistant et une mobilité réduite.",
-  "solution_title": "Stimulation ciblée pour une récupération quotidienne",
-  "solution_text": "Ces pads TENS/EMS délivrent des impulsions électriques contrôlées pour favoriser la relaxation, la récupération et le confort au quotidien.",
+  "problem_title": "Les tensions musculaires freinent le quotidien",
+  "problem_text": "Une position assise prolongée, des efforts intenses et des mouvements répétitifs entraînent souvent des sensations de tension.",
+  "solution_title": "Impulsions ciblées avec un objectif clair",
+  "solution_text": "Les électrodes transmettent les impulsions TENS/EMS de manière homogène et soutiennent une routine de récupération planifiée.",
   "compatibility_points": [
-    "Appareils TENS à connecteur de 2 mm",
-    "Stimulants EMS à connecteur de 2 mm",
-    "La plupart des unités d'électrothérapie à domicile",
-    "Dispositifs de réhabilitation portables"
+    "Appareils TENS avec connecteur de 2 mm",
+    "Appareils EMS avec connecteur de 2 mm",
+    "De nombreux systèmes de thérapie à domicile",
+    "Appareils de réhabilitation portables"
   ],
   "use_case_points": [
-    "Récupération musculaire après l'entraînement",
-    "Soulagement de la tension au cou et au dos",
-    "Soutien lors de longues heures de travail au bureau",
-    "Gestion de la douleur en voyage"
+    "Récupération après l'entraînement",
+    "Soutien en cas de tensions au cou et au dos",
+    "Équilibre après une longue position assise",
+    "Confort en voyage"
   ],
   "module_texts": {
-    "hero": "Conçu pour une performance fiable et un confort quotidien.",
-    "body_mapping": "Chaque avantage soutient un cas d'utilisation concret.",
-    "problem_solution": "De la tension quotidienne à une récupération contrôlée.",
-    "features": "Matériaux de haute qualité conçus pour une utilisation facile.",
-    "compatibility": "Compatible avec la plupart des appareils TENS/EMS utilisant des connecteurs de 2 mm."
+    "hero": "Qualité premium pour une utilisation fiable au quotidien.",
+    "body_mapping": "Chaque avantage soutient un objectif de confort et de mouvement concret.",
+    "problem_solution": "De la tension à la récupération structurée en quelques étapes.",
+    "features": "Matériaux durables, manipulation facile et maintien propre.",
+    "compatibility": "Compatible avec de nombreux appareils courants avec connexion de 2 mm."
   },
   "export_text_by_template": {
     "hero": {
-      "headline": "Électrodes TENS/EMS fiables pour un soulagement musculaire quotidien",
-      "subtext": "Des pads en hydrogel de qualité supérieure conçus pour une diffusion constante des impulsions et un usage confortable et respectueux de la peau, à la maison ou en déplacement."
+      "headline": "Motron Care TENS/EMS Électrodes Pro - Des électrodes confortables pour un usage quotidien",
+      "subtext": "Des électrodes en hydrogel respectueuses de la peau pour une stimulation homogène à domicile, en studio et en déplacement."
     },
     "body_mapping": {
       "benefit_1_title": "Conductivité constante",
-      "benefit_1_text": "Assure une distribution uniforme des impulsions pour une séance de stimulation stable et efficace.",
-      "benefit_2_title": "Hydrogel respectueux de la peau",
-      "benefit_2_text": "Matériau doux et confortable conçu pour une utilisation répétée sans irritation.",
-      "benefit_3_title": "Réutilisables et durables",
-      "benefit_3_text": "Gel de haute qualité avec film protecteur pour prolonger la durée de vie du produit.",
-      "benefit_4_title": "Application corporelle flexible",
-      "benefit_4_text": "S'adapte facilement aux épaules, au dos, au cou et aux jambes pour un soutien ciblé."
+      "benefit_1_text": "Transmission uniforme des impulsions pour une application stable.",
+      "benefit_2_title": "Confort sur la peau",
+      "benefit_2_text": "Sensation douce même lors d'une utilisation répétée.",
+      "benefit_3_title": "Maintien fiable",
+      "benefit_3_text": "Position sécurisée pendant le repos, le travail et le mouvement.",
+      "benefit_4_title": "Application flexible",
+      "benefit_4_text": "Adapté pour le cou, le dos, les épaules et les jambes."
     },
     "problem_solution": {
-      "problem_title": "La tension musculaire et la fatigue vous ralentissent",
-      "problem_text": "Des journées de travail longues, le sport et les mouvements répétitifs peuvent entraîner un inconfort persistant et une mobilité réduite.",
-      "solution_title": "Stimulation ciblée pour une récupération quotidienne",
-      "solution_text": "Ces pads TENS/EMS délivrent des impulsions électriques contrôlées pour favoriser la relaxation, la récupération et le confort au quotidien."
+      "problem_title": "Les tensions musculaires freinent le quotidien",
+      "problem_text": "Une position assise prolongée, des efforts intenses et des mouvements répétitifs entraînent souvent des sensations de tension.",
+      "solution_title": "Impulsions ciblées avec un objectif clair",
+      "solution_text": "Les électrodes transmettent les impulsions TENS/EMS de manière homogène et soutiennent une routine de récupération planifiée."
     },
     "features": {
-      "feature_text": "Matériaux de haute qualité conçus pour une utilisation facile."
+      "feature_text": "Matériaux durables, manipulation facile et maintien propre."
     },
     "compatibility": {
-      "compatibility": "Appareils TENS à connecteur de 2 mm | Stimulants EMS à connecteur de 2 mm | La plupart des unités d'électrothérapie à domicile | Dispositifs de réhabilitation portables",
-      "use_cases": "Récupération musculaire après l'entraînement | Soulagement de la tension au cou et au dos | Soutien lors de longues heures de travail au bureau | Gestion de la douleur en voyage"
+      "compatibility": "Appareils TENS avec connecteur de 2 mm | Appareils EMS avec connecteur de 2 mm | De nombreux systèmes de thérapie à domicile | Appareils de réhabilitation portables",
+      "use_cases": "Récupération après l'entraînement | Soutien en cas de tensions au cou et au dos | Équilibre après une longue position assise | Confort en voyage"
     }
   }
 }

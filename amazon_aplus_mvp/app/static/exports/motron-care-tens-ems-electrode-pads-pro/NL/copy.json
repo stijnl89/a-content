@@ -1,75 +1,75 @@
 {
   "marketplace": "NL",
-  "hero_headline": "Betrouwbare TENS/EMS elektrodenpads voor dagelijkse spierontspanning",
-  "hero_subtext": "Premium hydrogel pads ontworpen voor consistente pulsafgifte en comfortabel, huidvriendelijk gebruik thuis of onderweg.",
+  "hero_headline": "Motron Care TENS/EMS Elektrodenpads Pro - Comfortabele TENS/EMS-pads voor dagelijks gebruik",
+  "hero_subtext": "Huidvriendelijke hydrogel-elektroden voor een gelijkmatige stimulatie thuis, in de studio en onderweg.",
   "benefit_blocks": [
     {
-      "title": "Consistente geleiding",
-      "text": "Zorgt voor een gelijkmatige pulsverdeling voor een stabiele en effectieve stimulatiesessie."
+      "title": "Constante geleiding",
+      "text": "Gelijkmatige impulsoverdracht voor een stabiele toepassing."
     },
     {
-      "title": "Huidvriendelijk hydrogel",
-      "text": "Zacht en comfortabel materiaal ontworpen voor herhaald gebruik zonder irritatie."
+      "title": "Aangenaam op de huid",
+      "text": "Zacht draagcomfort, zelfs bij herhaald gebruik."
     },
     {
-      "title": "Herbruikbaar en duurzaam",
-      "text": "Hoogwaardige gel met beschermfolie helpt de levensduur van het product te verlengen."
+      "title": "Betrouwbare hechting",
+      "text": "Veilige pasvorm tijdens rust, werk en beweging."
     },
     {
-      "title": "Flexibele toepassing op het lichaam",
-      "text": "Past zich gemakkelijk aan schouders, rug, nek en benen aan voor gerichte ondersteuning."
+      "title": "Flexibel gebruik",
+      "text": "Geschikt voor nek, rug, schouders en benen."
     }
   ],
-  "problem_title": "Spanning en vermoeidheid vertragen je",
-  "problem_text": "Lange werkdagen, sport en repetitieve bewegingen kunnen leiden tot aanhoudend ongemak en verminderde mobiliteit.",
-  "solution_title": "Gerichte stimulatie voor dagelijkse herstel",
-  "solution_text": "Deze TENS/EMS pads leveren gecontroleerde elektrische impulsen ter ondersteuning van ontspanning, herstel en dagelijks comfort.",
+  "problem_title": "Spierverkrampingen belemmeren het dagelijks leven",
+  "problem_text": "Langdurig zitten, intensieve belasting en herhaalde bewegingen leiden vaak tot spanningsgevoelens.",
+  "solution_title": "Gerichte impulsen met een duidelijke focus",
+  "solution_text": "De pads geven TENS/EMS-impulsen gelijkmatig door en ondersteunen een geplande herstelroutine.",
   "compatibility_points": [
-    "2 mm pin TENS-apparaten",
-    "2 mm pin EMS-stimulators",
-    "De meeste elektrotherapie-eenheden voor thuisgebruik",
+    "TENS-apparaten met 2-mm pin",
+    "EMS-apparaten met 2-mm pin",
+    "Veel thuistherapiesystemen",
     "Draagbare revalidatieapparaten"
   ],
   "use_case_points": [
-    "Spierherstel na de training",
-    "Ontspanning van nek- en rugspanning",
-    "Ondersteuning tijdens lange bureauwerkzaamheden",
-    "Pijnbestrijding tijdens het reizen"
+    "Herstel na training",
+    "Ondersteuning bij nek- en rugklachten",
+    "Compensatie na langdurig zitten",
+    "Comfort tijdens het reizen"
   ],
   "module_texts": {
-    "hero": "Ontworpen voor betrouwbare prestaties en dagelijks comfort.",
-    "body_mapping": "Elke voordelen ondersteunt een praktische toepassing.",
-    "problem_solution": "Van dagelijkse spanning naar gecontroleerd herstel.",
-    "features": "Hoogwaardige materialen ontworpen voor gebruiksgemak.",
-    "compatibility": "Compatibel met de meeste TENS/EMS-apparaten met 2 mm connectors."
+    "hero": "Premium kwaliteit voor een betrouwbare toepassing in het dagelijks leven.",
+    "body_mapping": "Elk voordeel ondersteunt een specifiek comfort- en bewegingsdoel.",
+    "problem_solution": "Van belasting naar gestructureerd herstel in enkele stappen.",
+    "features": "Duurzame materialen, gebruiksvriendelijk en een nette pasvorm.",
+    "compatibility": "Compatibel met veel gangbare apparaten met 2-mm aansluiting."
   },
   "export_text_by_template": {
     "hero": {
-      "headline": "Betrouwbare TENS/EMS elektrodenpads voor dagelijkse spierontspanning",
-      "subtext": "Premium hydrogel pads ontworpen voor consistente pulsafgifte en comfortabel, huidvriendelijk gebruik thuis of onderweg."
+      "headline": "Motron Care TENS/EMS Elektrodenpads Pro - Comfortabele TENS/EMS-pads voor dagelijks gebruik",
+      "subtext": "Huidvriendelijke hydrogel-elektroden voor een gelijkmatige stimulatie thuis, in de studio en onderweg."
     },
     "body_mapping": {
-      "benefit_1_title": "Consistente geleiding",
-      "benefit_1_text": "Zorgt voor een gelijkmatige pulsverdeling voor een stabiele en effectieve stimulatiesessie.",
-      "benefit_2_title": "Huidvriendelijk hydrogel",
-      "benefit_2_text": "Zacht en comfortabel materiaal ontworpen voor herhaald gebruik zonder irritatie.",
-      "benefit_3_title": "Herbruikbaar en duurzaam",
-      "benefit_3_text": "Hoogwaardige gel met beschermfolie helpt de levensduur van het product te verlengen.",
-      "benefit_4_title": "Flexibele toepassing op het lichaam",
-      "benefit_4_text": "Past zich gemakkelijk aan schouders, rug, nek en benen aan voor gerichte ondersteuning."
+      "benefit_1_title": "Constante geleiding",
+      "benefit_1_text": "Gelijkmatige impulsoverdracht voor een stabiele toepassing.",
+      "benefit_2_title": "Aangenaam op de huid",
+      "benefit_2_text": "Zacht draagcomfort, zelfs bij herhaald gebruik.",
+      "benefit_3_title": "Betrouwbare hechting",
+      "benefit_3_text": "Veilige pasvorm tijdens rust, werk en beweging.",
+      "benefit_4_title": "Flexibel gebruik",
+      "benefit_4_text": "Geschikt voor nek, rug, schouders en benen."
     },
     "problem_solution": {
-      "problem_title": "Spanning en vermoeidheid vertragen je",
-      "problem_text": "Lange werkdagen, sport en repetitieve bewegingen kunnen leiden tot aanhoudend ongemak en verminderde mobiliteit.",
-      "solution_title": "Gerichte stimulatie voor dagelijkse herstel",
-      "solution_text": "Deze TENS/EMS pads leveren gecontroleerde elektrische impulsen ter ondersteuning van ontspanning, herstel en dagelijks comfort."
+      "problem_title": "Spierverkrampingen belemmeren het dagelijks leven",
+      "problem_text": "Langdurig zitten, intensieve belasting en herhaalde bewegingen leiden vaak tot spanningsgevoelens.",
+      "solution_title": "Gerichte impulsen met een duidelijke focus",
+      "solution_text": "De pads geven TENS/EMS-impulsen gelijkmatig door en ondersteunen een geplande herstelroutine."
     },
     "features": {
-      "feature_text": "Hoogwaardige materialen ontworpen voor gebruiksgemak."
+      "feature_text": "Duurzame materialen, gebruiksvriendelijk en een nette pasvorm."
     },
     "compatibility": {
-      "compatibility": "2 mm pin TENS-apparaten | 2 mm pin EMS-stimulators | De meeste elektrotherapie-eenheden voor thuisgebruik | Draagbare revalidatieapparaten",
-      "use_cases": "Spierherstel na de training | Ontspanning van nek- en rugspanning | Ondersteuning tijdens lange bureauwerkzaamheden | Pijnbestrijding tijdens het reizen"
+      "compatibility": "TENS-apparaten met 2-mm pin | EMS-apparaten met 2-mm pin | Veel thuistherapiesystemen | Draagbare revalidatieapparaten",
+      "use_cases": "Herstel na training | Ondersteuning bij nek- en rugklachten | Compensatie na langdurig zitten | Comfort tijdens het reizen"
     }
   }
 }

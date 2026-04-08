@@ -1,75 +1,75 @@
 {
   "marketplace": "IT",
-  "hero_headline": "Elettrodi TENS/EMS affidabili per un sollievo muscolare quotidiano",
-  "hero_subtext": "Pad in idrogel di alta qualità progettati per una consegna costante degli impulsi e un uso confortevole e amico della pelle a casa o in movimento.",
+  "hero_headline": "Motron Care TENS/EMS Elektrodenpads Pro - Bequeme TENS/EMS-Pads für den täglichen Gebrauch",
+  "hero_subtext": "Hautfreundliche Hydrogel-Elektroden für eine gleichmäßige Stimulation zu Hause, im Studio und unterwegs.",
   "benefit_blocks": [
     {
-      "title": "Conduttività costante",
-      "text": "Garantisce una distribuzione uniforme degli impulsi per una sessione di stimolazione stabile ed efficace."
+      "title": "Stabile Leitfähigkeit",
+      "text": "Gleichmäßige Impulsübertragung für eine zuverlässige Anwendung."
     },
     {
-      "title": "Idrogel amico della pelle",
-      "text": "Materiale morbido e confortevole progettato per un uso ripetuto senza irritazioni."
+      "title": "Angenehm auf der Haut",
+      "text": "Sanftes Tragegefühl auch bei häufiger Nutzung."
     },
     {
-      "title": "Riutilizzabili e durevoli",
-      "text": "Gel di alta qualità con pellicola protettiva che aiuta a prolungare la vita del prodotto."
+      "title": "Zuverlässiger Halt",
+      "text": "Sicherer Sitz während Ruhe, Arbeit und Bewegung."
     },
     {
-      "title": "Applicazione flessibile sul corpo",
-      "text": "Si adatta facilmente a spalle, schiena, collo e gambe per un supporto mirato."
+      "title": "Vielseitige Anwendung",
+      "text": "Ideal für Nacken, Rücken, Schultern und Beine."
     }
   ],
-  "problem_title": "La tensione muscolare e la fatica ti rallentano",
-  "problem_text": "Giornate lavorative lunghe, sport e movimenti ripetitivi possono portare a un disagio persistente e a una mobilità ridotta.",
-  "solution_title": "Stimolazione mirata per un recupero quotidiano",
-  "solution_text": "Questi pad TENS/EMS forniscono impulsi elettrici controllati per supportare il rilassamento, il recupero e il comfort quotidiano.",
+  "problem_title": "Muskelverspannungen beeinträchtigen den Alltag",
+  "problem_text": "Langes Sitzen, hohe Belastungen und wiederholte Bewegungen führen häufig zu Spannungsgefühlen.",
+  "solution_title": "Gezielte Impulse mit klarem Fokus",
+  "solution_text": "Die Pads übertragen TENS/EMS-Impulse gleichmäßig und unterstützen eine planbare Regenerationsroutine.",
   "compatibility_points": [
-    "Dispositivi TENS con pin da 2 mm",
-    "Stimolatori EMS con pin da 2 mm",
-    "La maggior parte delle unità di elettroterapia domestica",
-    "Dispositivi di riabilitazione portatili"
+    "TENS-Geräte mit 2-mm-Pin",
+    "EMS-Geräte mit 2-mm-Pin",
+    "Verschiedene Heimtherapiesysteme",
+    "Tragbare Rehabilitationsgeräte"
   ],
   "use_case_points": [
-    "Recupero muscolare post-allenamento",
-    "Sollievo dalla tensione di collo e schiena",
-    "Supporto durante lunghe ore di lavoro alla scrivania",
-    "Gestione del dolore durante i viaggi"
+    "Regeneration nach dem Training",
+    "Unterstützung bei Nacken- und Rückenverspannungen",
+    "Ausgleich nach langem Sitzen",
+    "Komfort auf Reisen"
   ],
   "module_texts": {
-    "hero": "Progettati per prestazioni affidabili e comfort quotidiano.",
-    "body_mapping": "Ogni beneficio supporta un caso d'uso reale.",
-    "problem_solution": "Dalla tensione quotidiana al recupero controllato.",
-    "features": "Materiali di alta qualità progettati per facilità d'uso.",
-    "compatibility": "Compatibili con la maggior parte dei dispositivi TENS/EMS che utilizzano connettori da 2 mm."
+    "hero": "Premium-Qualität für eine zuverlässige Anwendung im Alltag.",
+    "body_mapping": "Jeder Vorteil unterstützt ein konkretes Komfort- und Bewegungsziel.",
+    "problem_solution": "Von Belastung zu strukturierter Erholung in wenigen Schritten.",
+    "features": "Langlebige Materialien, einfache Handhabung und sicherer Sitz.",
+    "compatibility": "Kompatibel mit vielen gängigen Geräten mit 2-mm-Anschluss."
   },
   "export_text_by_template": {
     "hero": {
-      "headline": "Elettrodi TENS/EMS affidabili per un sollievo muscolare quotidiano",
-      "subtext": "Pad in idrogel di alta qualità progettati per una consegna costante degli impulsi e un uso confortevole e amico della pelle a casa o in movimento."
+      "headline": "Motron Care TENS/EMS Elektrodenpads Pro - Bequeme TENS/EMS-Pads für den täglichen Gebrauch",
+      "subtext": "Hautfreundliche Hydrogel-Elektroden für eine gleichmäßige Stimulation zu Hause, im Studio und unterwegs."
     },
     "body_mapping": {
-      "benefit_1_title": "Conduttività costante",
-      "benefit_1_text": "Garantisce una distribuzione uniforme degli impulsi per una sessione di stimolazione stabile ed efficace.",
-      "benefit_2_title": "Idrogel amico della pelle",
-      "benefit_2_text": "Materiale morbido e confortevole progettato per un uso ripetuto senza irritazioni.",
-      "benefit_3_title": "Riutilizzabili e durevoli",
-      "benefit_3_text": "Gel di alta qualità con pellicola protettiva che aiuta a prolungare la vita del prodotto.",
-      "benefit_4_title": "Applicazione flessibile sul corpo",
-      "benefit_4_text": "Si adatta facilmente a spalle, schiena, collo e gambe per un supporto mirato."
+      "benefit_1_title": "Stabile Leitfähigkeit",
+      "benefit_1_text": "Gleichmäßige Impulsübertragung für eine zuverlässige Anwendung.",
+      "benefit_2_title": "Angenehm auf der Haut",
+      "benefit_2_text": "Sanftes Tragegefühl auch bei häufiger Nutzung.",
+      "benefit_3_title": "Zuverlässiger Halt",
+      "benefit_3_text": "Sicherer Sitz während Ruhe, Arbeit und Bewegung.",
+      "benefit_4_title": "Vielseitige Anwendung",
+      "benefit_4_text": "Ideal für Nacken, Rücken, Schultern und Beine."
     },
     "problem_solution": {
-      "problem_title": "La tensione muscolare e la fatica ti rallentano",
-      "problem_text": "Giornate lavorative lunghe, sport e movimenti ripetitivi possono portare a un disagio persistente e a una mobilità ridotta.",
-      "solution_title": "Stimolazione mirata per un recupero quotidiano",
-      "solution_text": "Questi pad TENS/EMS forniscono impulsi elettrici controllati per supportare il rilassamento, il recupero e il comfort quotidiano."
+      "problem_title": "Muskelverspannungen beeinträchtigen den Alltag",
+      "problem_text": "Langes Sitzen, hohe Belastungen und wiederholte Bewegungen führen häufig zu Spannungsgefühlen.",
+      "solution_title": "Gezielte Impulse mit klarem Fokus",
+      "solution_text": "Die Pads übertragen TENS/EMS-Impulse gleichmäßig und unterstützen eine planbare Regenerationsroutine."
     },
     "features": {
-      "feature_text": "Materiali di alta qualità progettati per facilità d'uso."
+      "feature_text": "Langlebige Materialien, einfache Handhabung und sicherer Sitz."
     },
     "compatibility": {
-      "compatibility": "Dispositivi TENS con pin da 2 mm | Stimolatori EMS con pin da 2 mm | La maggior parte delle unità di elettroterapia domestica | Dispositivi di riabilitazione portatili",
-      "use_cases": "Recupero muscolare post-allenamento | Sollievo dalla tensione di collo e schiena | Supporto durante lunghe ore di lavoro alla scrivania | Gestione del dolore durante i viaggi"
+      "compatibility": "TENS-Geräte mit 2-mm-Pin | EMS-Geräte mit 2-mm-Pin | Verschiedene Heimtherapiesysteme | Tragbare Rehabilitationsgeräte",
+      "use_cases": "Regeneration nach dem Training | Unterstützung bei Nacken- und Rückenverspannungen | Ausgleich nach langem Sitzen | Komfort auf Reisen"
     }
   }
 }
