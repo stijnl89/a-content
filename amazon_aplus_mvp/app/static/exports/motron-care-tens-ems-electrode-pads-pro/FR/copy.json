@@ -1,0 +1,75 @@
+{
+  "marketplace": "FR",
+  "hero_headline": "Électrodes TENS/EMS fiables pour un soulagement musculaire quotidien",
+  "hero_subtext": "Des pads en hydrogel de qualité supérieure conçus pour une diffusion constante des impulsions et un usage confortable et respectueux de la peau, à la maison ou en déplacement.",
+  "benefit_blocks": [
+    {
+      "title": "Conductivité constante",
+      "text": "Assure une distribution uniforme des impulsions pour une séance de stimulation stable et efficace."
+    },
+    {
+      "title": "Hydrogel respectueux de la peau",
+      "text": "Matériau doux et confortable conçu pour une utilisation répétée sans irritation."
+    },
+    {
+      "title": "Réutilisables et durables",
+      "text": "Gel de haute qualité avec film protecteur pour prolonger la durée de vie du produit."
+    },
+    {
+      "title": "Application corporelle flexible",
+      "text": "S'adapte facilement aux épaules, au dos, au cou et aux jambes pour un soutien ciblé."
+    }
+  ],
+  "problem_title": "La tension musculaire et la fatigue vous ralentissent",
+  "problem_text": "Des journées de travail longues, le sport et les mouvements répétitifs peuvent entraîner un inconfort persistant et une mobilité réduite.",
+  "solution_title": "Stimulation ciblée pour une récupération quotidienne",
+  "solution_text": "Ces pads TENS/EMS délivrent des impulsions électriques contrôlées pour favoriser la relaxation, la récupération et le confort au quotidien.",
+  "compatibility_points": [
+    "Appareils TENS à connecteur de 2 mm",
+    "Stimulants EMS à connecteur de 2 mm",
+    "La plupart des unités d'électrothérapie à domicile",
+    "Dispositifs de réhabilitation portables"
+  ],
+  "use_case_points": [
+    "Récupération musculaire après l'entraînement",
+    "Soulagement de la tension au cou et au dos",
+    "Soutien lors de longues heures de travail au bureau",
+    "Gestion de la douleur en voyage"
+  ],
+  "module_texts": {
+    "hero": "Conçu pour une performance fiable et un confort quotidien.",
+    "body_mapping": "Chaque avantage soutient un cas d'utilisation concret.",
+    "problem_solution": "De la tension quotidienne à une récupération contrôlée.",
+    "features": "Matériaux de haute qualité conçus pour une utilisation facile.",
+    "compatibility": "Compatible avec la plupart des appareils TENS/EMS utilisant des connecteurs de 2 mm."
+  },
+  "export_text_by_template": {
+    "hero": {
+      "headline": "Électrodes TENS/EMS fiables pour un soulagement musculaire quotidien",
+      "subtext": "Des pads en hydrogel de qualité supérieure conçus pour une diffusion constante des impulsions et un usage confortable et respectueux de la peau, à la maison ou en déplacement."
+    },
+    "body_mapping": {
+      "benefit_1_title": "Conductivité constante",
+      "benefit_1_text": "Assure une distribution uniforme des impulsions pour une séance de stimulation stable et efficace.",
+      "benefit_2_title": "Hydrogel respectueux de la peau",
+      "benefit_2_text": "Matériau doux et confortable conçu pour une utilisation répétée sans irritation.",
+      "benefit_3_title": "Réutilisables et durables",
+      "benefit_3_text": "Gel de haute qualité avec film protecteur pour prolonger la durée de vie du produit.",
+      "benefit_4_title": "Application corporelle flexible",
+      "benefit_4_text": "S'adapte facilement aux épaules, au dos, au cou et aux jambes pour un soutien ciblé."
+    },
+    "problem_solution": {
+      "problem_title": "La tension musculaire et la fatigue vous ralentissent",
+      "problem_text": "Des journées de travail longues, le sport et les mouvements répétitifs peuvent entraîner un inconfort persistant et une mobilité réduite.",
+      "solution_title": "Stimulation ciblée pour une récupération quotidienne",
+      "solution_text": "Ces pads TENS/EMS délivrent des impulsions électriques contrôlées pour favoriser la relaxation, la récupération et le confort au quotidien."
+    },
+    "features": {
+      "feature_text": "Matériaux de haute qualité conçus pour une utilisation facile."
+    },
+    "compatibility": {
+      "compatibility": "Appareils TENS à connecteur de 2 mm | Stimulants EMS à connecteur de 2 mm | La plupart des unités d'électrothérapie à domicile | Dispositifs de réhabilitation portables",
+      "use_cases": "Récupération musculaire après l'entraînement | Soulagement de la tension au cou et au dos | Soutien lors de longues heures de travail au bureau | Gestion de la douleur en voyage"
+    }
+  }
+}

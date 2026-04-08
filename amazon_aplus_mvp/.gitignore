@@ -1,0 +1,31 @@
+# Virtual env
+venv/
+app/venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env files (ZEER BELANGRIJK)
+.env
+.env.*
+app/envback/.env
+
+# Output / generated files
+app/static/exports/
+app/static/uploads/
+
+# Playwright
+playwright-report/
+
+# OS
+.DS_Store
+Thumbs.db
+
+amazon_aplus_mvp/.env
+amazon_aplus_mvp/.env.*
+amazon_aplus_mvp/app/venv/
+amazon_aplus_mvp/**/__pycache__/
+amazon_aplus_mvp/**/*.pyc
+amazon_aplus_mvp/app/static/exports/
+amazon_aplus_mvp/app/static/uploads/

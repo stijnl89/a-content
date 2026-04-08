@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>{{ global_css | safe }}</style>
+</head>
+<body>
+  <section class="aplus-canvas" style="width: {{ width }}px; height: {{ height }}px;">
+    <span class="badge">{{ marketplace }} • {{ product.brand_name }}</span>
+    <h1 class="title">{{ content.hero_headline }}</h1>
+    <p class="subtitle">{{ content.hero_subtext }}</p>
+  </section>
+</body>
+</html>

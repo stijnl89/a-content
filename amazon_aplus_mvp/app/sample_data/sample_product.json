@@ -1,0 +1,36 @@
+{
+  "product_name": "TENS/EMS Electrode Pads Pro",
+  "brand_name": "Motron Care",
+  "short_description": "Premium hydrogel electrode pads for stable pulse transfer and skin-friendly comfort.",
+  "usps": [
+    "Strong and even conductivity",
+    "Skin-friendly hydrogel",
+    "Reusable with protective film",
+    "Flexible fit for shoulders, back and legs"
+  ],
+  "compatibility": [
+    "2mm pin TENS units",
+    "2mm pin EMS stimulators",
+    "Most home electrotherapy devices",
+    "Portable rehab units"
+  ],
+  "use_cases": [
+    "Post-workout muscle recovery",
+    "Everyday neck and back tension relief",
+    "Desk worker support",
+    "Travel-friendly pain management"
+  ],
+  "target_audience": "active adults and physiotherapy home users",
+  "tone_of_voice": "clear, premium and supportive",
+  "forbidden_claims": [
+    "cure",
+    "guaranteed",
+    "instant pain elimination"
+  ],
+  "allowed_marketplaces": ["DE", "FR", "NL", "IT", "ES"],
+  "image_paths": {
+    "product_image": "app/static/uploads/tens_product.png",
+    "logo_image": "app/static/uploads/logo.png",
+    "lifestyle_image": "app/static/uploads/lifestyle.png"
+  }
+}

@@ -1,0 +1,23 @@
+# Virtual env
+venv/
+app/venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Env files (ZEER BELANGRIJK)
+.env
+.env.*
+app/envback/.env
+
+# Output / generated files
+app/static/exports/
+app/static/uploads/
+
+# Playwright
+playwright-report/
+
+# OS
+.DS_Store
+Thumbs.db

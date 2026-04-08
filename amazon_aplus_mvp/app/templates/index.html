@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% block title %}Input | Amazon A+ MVP{% endblock %}
+{% block content %}
+<section class="panel">
+  <h2>1. Product Details</h2>
+  <p>Vul de productvelden in. De app bouwt automatisch de juiste JSON voor de backend.</p>
+  {% if error %}
+    <div class="error-box">{{ error }}</div>
+  {% endif %}
+
+  <form id="product-form" action="/edit" method="post" class="stacked-form">
+    <label for="product_name">product_name</label>
+    <input id="product_name" type="text" required>
+
+    <label for="brand_name">brand_name</label>
+    <input id="brand_name" type="text" required>
+
+    <label for="short_description">short_description</label>
+    <textarea id="short_description" rows="4"></textarea>
+
+    <div>
+      <label>usps</label>
+      <div id="usps-list" class="stacked-form"></div>
+      <button type="button" class="ghost-btn" data-add-list="usps">+ Add</button>
+    </div>
+
+    <div>
+      <label>compatibility</label>
+      <div id="compatibility-list" class="stacked-form"></div>
+      <button type="button" class="ghost-btn" data-add-list="compatibility">+ Add</button>
+    </div>
+
+    <div>
+      <label>use_cases</label>
+      <div id="use_cases-list" class="stacked-form"></div>
+      <button type="button" class="ghost-btn" data-add-list="use_cases">+ Add</button>
+    </div>
+
+    <label for="target_audience">target_audience</label>
+    <input id="target_audience" type="text">
+
+    <label for="tone_of_voice">tone_of_voice</label>
+    <input id="tone_of_voice" type="text">
+
+    <textarea id="product_json_hidden" name="product_json" style="display:none;"></textarea>
+    <input type="hidden" name="master_copy_json" value="">
+    <textarea id="product_json_debug" style="display:none;" readonly></textarea>
+  <textarea id="sample_json_source" style="display:none;" readonly>{{ sample_json }}</textarea>
+
+    <fieldset>
+      <legend>2. Kies marketplaces</legend>
+      <div class="market-grid">
+        {% for market in marketplaces %}
+          <label class="check-pill">
+            <input type="checkbox" name="selected_marketplaces" value="{{ market }}" checked>
+            <span>{{ market }}</span>
+          </label>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <button class="primary-btn" type="submit">Generate Master Copy</button>
+  </form>
+</section>
+
+<script>
+  (function () {
+    const initialRaw = (document.getElementById("sample_json_source").value || "").trim();
+    let initialData = {};
+    try {
+      initialData = initialRaw ? JSON.parse(initialRaw) : {};
+    } catch (e) {
+      initialData = {};
+    }
+
+    const form = document.getElementById("product-form");
+    const hiddenJson = document.getElementById("product_json_hidden");
+    const debugJson = document.getElementById("product_json_debug");
+
+    const fields = {
+      product_name: document.getElementById("product_name"),
+      brand_name: document.getElementById("brand_name"),
+      short_description: document.getElementById("short_description"),
+      target_audience: document.getElementById("target_audience"),
+      tone_of_voice: document.getElementById("tone_of_voice"),
+    };
+
+    function makeListItem(listKey, value) {
+      const row = document.createElement("div");
+      row.className = "market-grid";
+
+      const input = document.createElement("input");
+      input.type = "text";
+      input.value = value || "";
+      input.dataset.listKey = listKey;
+      input.className = "list-input";
+      input.style.flex = "1";
+
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "ghost-btn";
+      remove.textContent = "Remove";
+      remove.addEventListener("click", function () {
+        row.remove();
+      });
+
+      row.appendChild(input);
+      row.appendChild(remove);
+      return row;
+    }
+
+    function fillList(listKey, values) {
+      const container = document.getElementById(listKey + "-list");
+      container.innerHTML = "";
+      const items = Array.isArray(values) && values.length ? values : [""];
+      items.forEach(function (value) {
+        container.appendChild(makeListItem(listKey, value));
+      });
+    }
+
+    function collectList(listKey) {
+      const container = document.getElementById(listKey + "-list");
+      const values = Array.from(container.querySelectorAll("input[data-list-key='" + listKey + "']"))
+        .map(function (el) { return (el.value || "").trim(); })
+        .filter(Boolean);
+      return values;
+    }
+
+    fields.product_name.value = initialData.product_name || "";
+    fields.brand_name.value = initialData.brand_name || "";
+    fields.short_description.value = initialData.short_description || "";
+    fields.target_audience.value = initialData.target_audience || "";
+    fields.tone_of_voice.value = initialData.tone_of_voice || "";
+
+    fillList("usps", initialData.usps || []);
+    fillList("compatibility", initialData.compatibility || []);
+    fillList("use_cases", initialData.use_cases || []);
+
+    document.querySelectorAll("button[data-add-list]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        const listKey = button.getAttribute("data-add-list");
+        const container = document.getElementById(listKey + "-list");
+        container.appendChild(makeListItem(listKey, ""));
+      });
+    });
+
+    form.addEventListener("submit", function () {
+      const productPayload = {
+        product_name: (fields.product_name.value || "").trim(),
+        brand_name: (fields.brand_name.value || "").trim(),
+        short_description: (fields.short_description.value || "").trim(),
+        usps: collectList("usps"),
+        compatibility: collectList("compatibility"),
+        use_cases: collectList("use_cases"),
+        target_audience: (fields.target_audience.value || "").trim(),
+        tone_of_voice: (fields.tone_of_voice.value || "").trim(),
+      };
+
+      const json = JSON.stringify(productPayload, null, 2);
+      hiddenJson.value = json;
+      debugJson.value = json;
+    });
+  })();
+</script>
+{% endblock %}

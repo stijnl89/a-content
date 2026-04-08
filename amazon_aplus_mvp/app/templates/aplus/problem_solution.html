@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>{{ global_css | safe }}</style>
+</head>
+<body>
+  <section class="aplus-canvas" style="width: {{ width }}px; height: {{ height }}px;">
+    <span class="badge">Problem / Solution</span>
+    <div class="grid two-col" style="margin-top: 40px;">
+      <article class="card">
+        <h3>{{ content.problem_title }}</h3>
+        <p>{{ content.problem_text }}</p>
+      </article>
+      <article class="card">
+        <h3>{{ content.solution_title }}</h3>
+        <p>{{ content.solution_text }}</p>
+      </article>
+    </div>
+  </section>
+</body>
+</html>

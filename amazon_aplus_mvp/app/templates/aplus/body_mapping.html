@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>{{ global_css | safe }}</style>
+</head>
+<body>
+  <section class="aplus-canvas" style="width: {{ width }}px; height: {{ height }}px;">
+    <span class="badge">Body Mapping</span>
+    <h1 class="title">Benefits at a Glance</h1>
+    <div class="grid four-col">
+      {% for block in content.benefit_blocks[:4] %}
+      <article class="card">
+        <h3>{{ block.title }}</h3>
+        <p>{{ block.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</body>
+</html>

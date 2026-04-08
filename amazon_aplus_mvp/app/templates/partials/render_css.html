@@ -1,0 +1,95 @@
+:root {
+  --bg: #f7f8fa;
+  --panel: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --line: #dbe2ea;
+  --accent: #1544a0;
+  --accent-soft: #e8efff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  color: var(--ink);
+}
+
+.aplus-canvas {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, #f8fbff 0%, #ffffff 45%, #f2f5fa 100%);
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+}
+
+.badge {
+  align-self: flex-start;
+  display: inline-flex;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.title {
+  margin: 18px 0 8px;
+  font-size: 56px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.grid {
+  margin-top: 28px;
+  display: grid;
+  gap: 18px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.card p, .card li {
+  margin: 0;
+  color: #334155;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.list {
+  margin: 0;
+  padding-left: 22px;
+}

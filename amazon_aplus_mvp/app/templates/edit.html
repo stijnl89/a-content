@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}Edit Master Copy | Amazon A+ MVP{% endblock %}
+{% block content %}
+<section class="panel">
+  <h2>Step 2: Edit Master Copy</h2>
+  <p>Controleer en bewerk je master copy voordat marketplace content wordt gegenereerd.</p>
+  <p>Bron: <strong>{{ master_copy_source }}</strong></p>
+  <p>Marketplaces: <strong>{{ selected_marketplaces | join(", ") }}</strong></p>
+  {% if error %}
+    <div class="error-box">{{ error }}</div>
+  {% endif %}
+</section>
+
+<section class="panel">
+  <form action="/generate-marketplaces" method="post" class="stacked-form">
+    <textarea name="product_json" style="display:none;">{{ product_json }}</textarea>
+    <input type="hidden" name="selected_marketplaces_csv" value="{{ selected_marketplaces_csv }}">
+
+    <label for="hero_headline">hero_headline</label>
+    <textarea id="hero_headline" name="hero_headline" rows="2">{{ master_copy.hero_headline }}</textarea>
+
+    <label for="hero_subtext">hero_subtext</label>
+    <textarea id="hero_subtext" name="hero_subtext" rows="3">{{ master_copy.hero_subtext }}</textarea>
+
+    <h3>benefit_blocks (4)</h3>
+    {% for block in master_copy.benefit_blocks %}
+      <label>benefit_blocks[{{ loop.index0 }}].title</label>
+      <input type="text" name="benefit_titles" value="{{ block.title }}">
+
+      <label>benefit_blocks[{{ loop.index0 }}].text</label>
+      <textarea name="benefit_texts" rows="2">{{ block.text }}</textarea>
+    {% endfor %}
+
+    <label for="problem_title">problem_title</label>
+    <input id="problem_title" type="text" name="problem_title" value="{{ master_copy.problem_title }}">
+
+    <label for="problem_text">problem_text</label>
+    <textarea id="problem_text" name="problem_text" rows="3">{{ master_copy.problem_text }}</textarea>
+
+    <label for="solution_title">solution_title</label>
+    <input id="solution_title" type="text" name="solution_title" value="{{ master_copy.solution_title }}">
+
+    <label for="solution_text">solution_text</label>
+    <textarea id="solution_text" name="solution_text" rows="3">{{ master_copy.solution_text }}</textarea>
+
+    <label for="compatibility_points_text">compatibility_points (1 per regel)</label>
+    <textarea id="compatibility_points_text" name="compatibility_points_text" rows="5">{{ master_copy.compatibility_points | join('\n') }}</textarea>
+
+    <label for="use_case_points_text">use_case_points (1 per regel)</label>
+    <textarea id="use_case_points_text" name="use_case_points_text" rows="5">{{ master_copy.use_case_points | join('\n') }}</textarea>
+
+    <h3>module_texts</h3>
+    <label for="module_text_hero">module_texts.hero</label>
+    <textarea id="module_text_hero" name="module_text_hero" rows="2">{{ master_copy.module_texts.get("hero", "") }}</textarea>
+
+    <label for="module_text_body_mapping">module_texts.body_mapping</label>
+    <textarea id="module_text_body_mapping" name="module_text_body_mapping" rows="2">{{ master_copy.module_texts.get("body_mapping", "") }}</textarea>
+
+    <label for="module_text_problem_solution">module_texts.problem_solution</label>
+    <textarea id="module_text_problem_solution" name="module_text_problem_solution" rows="2">{{ master_copy.module_texts.get("problem_solution", "") }}</textarea>
+
+    <label for="module_text_features">module_texts.features</label>
+    <textarea id="module_text_features" name="module_text_features" rows="2">{{ master_copy.module_texts.get("features", "") }}</textarea>
+
+    <label for="module_text_compatibility">module_texts.compatibility</label>
+    <textarea id="module_text_compatibility" name="module_text_compatibility" rows="2">{{ master_copy.module_texts.get("compatibility", "") }}</textarea>
+
+    <button class="primary-btn" type="submit">Generate marketplace content</button>
+  </form>
+</section>
+{% endblock %}

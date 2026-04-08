@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Resultaat | Amazon A+ MVP{% endblock %}
+{% block content %}
+<section class="panel">
+  <h2>Export Klaar: {{ result.product_slug }}</h2>
+  <p>Alle templates en copy zijn lokaal opgeslagen in:</p>
+  <p class="mono">{{ result.exports_dir }}</p>
+  <p>Gekozen marketplaces: <strong>{{ selected_marketplaces | join(", ") }}</strong></p>
+  <p>Mode: <strong>{{ generation_mode }}</strong></p>
+  <p>{{ mode_message }}</p>
+</section>
+
+{% for market in result.marketplaces %}
+<section class="panel">
+  <div class="market-header">
+    <h3>Marketplace {{ market.marketplace }}</h3>
+    <p class="mono">Copy: {{ market.copy_path }}</p>
+    {% if market.copy_url %}
+      <p><a href="{{ market.copy_url }}" target="_blank">Open copy.json</a></p>
+    {% endif %}
+  </div>
+
+  <h4>Gegenereerde Copy</h4>
+  <pre>{{ market.copy_content | tojson(indent=2) }}</pre>
+
+  <h4>Output Bestanden</h4>
+  <ul>
+    {% if market.preview_urls %}
+      {% for preview_url in market.preview_urls %}
+        {% if preview_url.startswith('placeholder:') %}
+          <li>{{ preview_url.replace('placeholder:', '') }}.png (placeholder, rendering uitgeschakeld)</li>
+        {% else %}
+          <li><a href="{{ preview_url }}" target="_blank">{{ preview_url }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <li>Geen image output in deze run.</li>
+    {% endif %}
+  </ul>
+</section>
+{% endfor %}
+
+<section class="panel">
+  <h3>Gebruikte Productinput</h3>
+  <pre>{{ raw_product }}</pre>
+  <a class="ghost-btn" href="/">Genereer opnieuw</a>
+</section>
+{% endblock %}

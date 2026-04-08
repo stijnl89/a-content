@@ -1,0 +1,75 @@
+{
+  "marketplace": "NL",
+  "hero_headline": "Betrouwbare TENS/EMS elektrodenpads voor dagelijkse spierontspanning",
+  "hero_subtext": "Premium hydrogel pads ontworpen voor consistente pulsafgifte en comfortabel, huidvriendelijk gebruik thuis of onderweg.",
+  "benefit_blocks": [
+    {
+      "title": "Consistente geleiding",
+      "text": "Zorgt voor een gelijkmatige pulsverdeling voor een stabiele en effectieve stimulatiesessie."
+    },
+    {
+      "title": "Huidvriendelijk hydrogel",
+      "text": "Zacht en comfortabel materiaal ontworpen voor herhaald gebruik zonder irritatie."
+    },
+    {
+      "title": "Herbruikbaar en duurzaam",
+      "text": "Hoogwaardige gel met beschermfolie helpt de levensduur van het product te verlengen."
+    },
+    {
+      "title": "Flexibele toepassing op het lichaam",
+      "text": "Past zich gemakkelijk aan schouders, rug, nek en benen aan voor gerichte ondersteuning."
+    }
+  ],
+  "problem_title": "Spanning en vermoeidheid vertragen je",
+  "problem_text": "Lange werkdagen, sport en repetitieve bewegingen kunnen leiden tot aanhoudend ongemak en verminderde mobiliteit.",
+  "solution_title": "Gerichte stimulatie voor dagelijkse herstel",
+  "solution_text": "Deze TENS/EMS pads leveren gecontroleerde elektrische impulsen ter ondersteuning van ontspanning, herstel en dagelijks comfort.",
+  "compatibility_points": [
+    "2 mm pin TENS-apparaten",
+    "2 mm pin EMS-stimulators",
+    "De meeste elektrotherapie-eenheden voor thuisgebruik",
+    "Draagbare revalidatieapparaten"
+  ],
+  "use_case_points": [
+    "Spierherstel na de training",
+    "Ontspanning van nek- en rugspanning",
+    "Ondersteuning tijdens lange bureauwerkzaamheden",
+    "Pijnbestrijding tijdens het reizen"
+  ],
+  "module_texts": {
+    "hero": "Ontworpen voor betrouwbare prestaties en dagelijks comfort.",
+    "body_mapping": "Elke voordelen ondersteunt een praktische toepassing.",
+    "problem_solution": "Van dagelijkse spanning naar gecontroleerd herstel.",
+    "features": "Hoogwaardige materialen ontworpen voor gebruiksgemak.",
+    "compatibility": "Compatibel met de meeste TENS/EMS-apparaten met 2 mm connectors."
+  },
+  "export_text_by_template": {
+    "hero": {
+      "headline": "Betrouwbare TENS/EMS elektrodenpads voor dagelijkse spierontspanning",
+      "subtext": "Premium hydrogel pads ontworpen voor consistente pulsafgifte en comfortabel, huidvriendelijk gebruik thuis of onderweg."
+    },
+    "body_mapping": {
+      "benefit_1_title": "Consistente geleiding",
+      "benefit_1_text": "Zorgt voor een gelijkmatige pulsverdeling voor een stabiele en effectieve stimulatiesessie.",
+      "benefit_2_title": "Huidvriendelijk hydrogel",
+      "benefit_2_text": "Zacht en comfortabel materiaal ontworpen voor herhaald gebruik zonder irritatie.",
+      "benefit_3_title": "Herbruikbaar en duurzaam",
+      "benefit_3_text": "Hoogwaardige gel met beschermfolie helpt de levensduur van het product te verlengen.",
+      "benefit_4_title": "Flexibele toepassing op het lichaam",
+      "benefit_4_text": "Past zich gemakkelijk aan schouders, rug, nek en benen aan voor gerichte ondersteuning."
+    },
+    "problem_solution": {
+      "problem_title": "Spanning en vermoeidheid vertragen je",
+      "problem_text": "Lange werkdagen, sport en repetitieve bewegingen kunnen leiden tot aanhoudend ongemak en verminderde mobiliteit.",
+      "solution_title": "Gerichte stimulatie voor dagelijkse herstel",
+      "solution_text": "Deze TENS/EMS pads leveren gecontroleerde elektrische impulsen ter ondersteuning van ontspanning, herstel en dagelijks comfort."
+    },
+    "features": {
+      "feature_text": "Hoogwaardige materialen ontworpen voor gebruiksgemak."
+    },
+    "compatibility": {
+      "compatibility": "2 mm pin TENS-apparaten | 2 mm pin EMS-stimulators | De meeste elektrotherapie-eenheden voor thuisgebruik | Draagbare revalidatieapparaten",
+      "use_cases": "Spierherstel na de training | Ontspanning van nek- en rugspanning | Ondersteuning tijdens lange bureauwerkzaamheden | Pijnbestrijding tijdens het reizen"
+    }
+  }
+}
